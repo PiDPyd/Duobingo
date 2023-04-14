@@ -4,7 +4,7 @@ from discord.ext import commands
 from topics import topic_selector, concept_selector
 from practice import question_answer, question_len
 
-TOKEN = 'MTA4ODA4MjUzMzAxMjQ3NjAxNQ.G7idng.2vJ0OmHgYjxp_RyjIWE3v4ZR8mEoZEAUPmcGIM'
+TOKEN = 'Your Token'
 intents = discord.Intents.all()
 client = commands.Bot(command_prefix='.',intents=intents)
 subject=''
